@@ -1,0 +1,59 @@
+<div class="ui container">
+<h2 class="ui center aligned medium icon header">
+  <i class="circular coffee icon pink "></i>
+   Hi!
+</h2>
+<div class="ui grid">
+<div class="ui eleven wide column ">
+<div class="ui fluid raised card chatbox ">
+<div class="content">
+<div class="ui  feed">
+  <h4 class="ui header">Followers Activity</h4>
+
+  <%= render @messages%>
+ 
+</div>
+</div>
+<div class="extra content">
+  <form class="ui reply form">
+    <div class="field">
+  <%# <input type="text"> %>
+    <div class="ui fluid icon input">
+   
+  <input type="text" placeholder="Enter message...">
+
+      <i class="bordered inverted orange icon edit"></i>
+    </div>
+    </div>
+  
+  </form>
+
+    <%# <button class="ui button">Join Project</button> %>
+</div>
+</div>
+
+</div>
+<div class="ui five wide column ">
+<div class="ui fluid raised card chatbox ">
+  <div class="content">
+  <div class="ui column  inverted vertical menu">
+
+  <a class="active item">
+    Home
+  </a>
+  <a class="item">
+    Messages
+  </a>
+  <a class="item">
+    Friends
+  </a>
+    
+</div>
+  </div>
+  </div>
+</div>
+
+</div>
+
+
+
